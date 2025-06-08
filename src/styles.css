@@ -13,23 +13,28 @@ body {
   padding: 30px;
 }
 
-.enter-city {
-  padding: 20px;
-  width: 70%;
+header {
+  border-bottom: 1px solid #e4eaff;
+  padding-bottom: 30px;
+}
+
+.search-form-input {
+  padding: 15px 20px;
+  width: 80%;
   background: #e4eaff;
-  margin: 10px 0 20px 0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  font-size: 14px;
   border: none;
   border-radius: 5px;
 }
 
-.search-button {
+.search-form-button {
   background: #191970;
   color: #ffffff;
   border-radius: 5px;
   border: none;
-  padding: 18px 25px;
+  padding: 15px 30px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -52,6 +57,7 @@ p strong {
 .location {
   font-family: "Cal Sans", sans-serif;
   font-weight: 400;
+  font-size: 38px;
   margin-bottom: 10px;
   color: #191970;
 }
@@ -85,15 +91,13 @@ p strong {
 
 footer {
   font-size: 12px;
-  text-align: center;
-  padding: 5px 0 10px 0;
-}
-
-.name {
-  color: #daa520;
-}
-
-p a {
   color: #191970;
+  text-align: center;
+  padding-top: 25px;
+  border-top: 1px solid #e4eaff;
+}
+
+a {
+  color: #daa520;
   text-decoration: none;
 }
