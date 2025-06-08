@@ -3,23 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>This Weather App Project</title>
   </head>
   <body>
-    <h1>This Weather App Project</h1>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/shortstack8" target="_blank">Tirelle Peter</a
-      >, is
-      <a
-        href="https://github.com/shortstack8/weather-app-project"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://this-weather-app-project.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <form>
+          <input
+            class="enter-city"
+            type="search"
+            placeholder="Enter a city..."
+            required
+          />
+          <input class="search-button" type="submit" value="Search" />
+        </form>
+      </header>
+      <hr />
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="location">Paris</h1>
+            <p class="forecast-details">
+              Saturday 15:32, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="forecast-today">
+            <span class="weather-emoji">☀️</span>
+            <span class="current-temperature">14</span>
+            <span class="celsius">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/shortstack8" target="_blank"
+          >Tirelle Peter</a
+        >, is
+        <a
+          href="https://github.com/shortstack8/weather-app-project"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://this-weather-app-project.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
