@@ -23,8 +23,6 @@ function updateTemperature(response) {
 
   let iconElement = document.querySelector("#weather-icon");
 
-  console.log(response.data);
-
   currentTemperatureElement.innerHTML = Math.round(temperature);
   locationElement.innerHTML = location;
   timeElement.innerHTML = formatDate(date);
