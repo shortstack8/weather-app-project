@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>This Weather App Project</title>
   </head>
   <body>
@@ -30,7 +31,7 @@
       <main>
         <div class="current-weather">
           <div>
-            <h1 id="location" class="location">Paris</h1>
+            <h1 id="location" class="location"></h1>
             <p class="forecast-details">
               Saturday 15:32, moderate rain <br />
               Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
@@ -40,7 +41,7 @@
             <!-- can make this section all divs and make forecast-today display
             flex and use margin settings to position the elements -->
             <span class="weather-emoji">☀️</span>
-            <span class="current-temperature">14</span>
+            <span id="current-temperature" class="current-temperature"></span>
             <span class="celsius">°C</span>
           </div>
         </div>
