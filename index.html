@@ -15,6 +15,7 @@
   </head>
   <body>
     <div class="container">
+      <!-- Search engine section -->
       <header>
         <form id="search-form" class="search-form">
           <input
@@ -29,6 +30,7 @@
       </header>
 
       <main>
+        <!-- Current location and conditions display -->
         <div class="current-weather">
           <div>
             <h1 id="location" class="location"></h1>
@@ -39,12 +41,68 @@
               <strong id="wind-speed"></strong>
             </p>
           </div>
+          <!-- Current weather icon and temperature display -->
           <div class="forecast-today">
-            <!-- can make this section all divs and make forecast-today display
-            flex and use margin settings to position the elements -->
             <div id="weather-icon"></div>
-            <span id="current-temperature" class="current-temperature"></span>
-            <span class="celsius">°C</span>
+            <div id="current-temperature" class="current-temperature"></div>
+            <div class="celsius">°C</div>
+          </div>
+        </div>
+        <!-- Week ahead forecast display -->
+        <div class="weather-forecast">
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Tues</div>
+            <div class="weather-forecast-icon">☀️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Wed</div>
+            <div class="weather-forecast-icon">☀️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Thur</div>
+            <div class="weather-forecast-icon">☀️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Fri</div>
+            <div class="weather-forecast-icon">☀️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Sat</div>
+            <div class="weather-forecast-icon">☀️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
           </div>
         </div>
       </main>
